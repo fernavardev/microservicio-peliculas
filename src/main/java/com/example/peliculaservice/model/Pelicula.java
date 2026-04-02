@@ -34,8 +34,7 @@ public class Pelicula {
     public Pelicula() {
     }
 
-    public Pelicula(Long id, String titulo, int anio, String director, String genero, String sinopsis) {
-        this.id = id;
+    public Pelicula(String titulo, int anio, String director, String genero, String sinopsis) {
         this.titulo = titulo;
         this.anio = anio;
         this.director = director;
