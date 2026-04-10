@@ -57,6 +57,46 @@ public class DataLoader implements CommandLineRunner {
                     "Drama",
                     "Un joven baterista enfrenta el duro entrenamiento de un profesor extremadamente exigente."
             ));
+
+            peliculaRepository.save(new Pelicula(
+                "The Dark Knight",
+                2008,
+                "Christopher Nolan",
+                "Acción",
+                "Batman enfrenta al Joker mientras Gotham cae en el caos."
+            ));
+
+             peliculaRepository.save(new Pelicula(
+                "Pulp Fiction",
+                1994,
+                "Quentin Tarantino",
+                "Crimen",
+                "Historias entrelazadas del mundo criminal en Los Ángeles."
+             ));
+
+             peliculaRepository.save(new Pelicula(
+                "Fight Club",
+                1999,
+                "David Fincher",
+                "Drama",
+                "Un hombre crea un club secreto de peleas que se convierte en algo mucho más grande."
+             ));
+
+             peliculaRepository.save(new Pelicula(
+                "Forrest Gump",
+                1994,
+                "Robert Zemeckis",
+                "Drama",
+                "La vida de un hombre con discapacidad intelectual que presencia momentos clave de la historia."
+             ));
+
+             peliculaRepository.save(new Pelicula(
+                "The Matrix",
+                1999,
+                "Lana y Lilly Wachowski",
+                "Ciencia ficción",
+                "Un hacker descubre la verdadera naturaleza de la realidad y su rol en la guerra contra las máquinas."
+             ));
         }
     }
 }
